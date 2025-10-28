@@ -4,6 +4,11 @@ interface calc{
     //by default all the methods in an interface are public abstract meaning here the add method after declaration becomes public abstract void add();
     void add(int n1, int n2);
     public abstract void disp();
+
+    //if you want to have a method with implementation in an interface then they have to be declared as default explicitly no questions asked
+    default void multiply(){
+        System.out.println("multiply numbers");
+    }
 }
 class Telusko{
     public void learn(){
