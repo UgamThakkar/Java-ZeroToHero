@@ -16,7 +16,7 @@ class Son1 extends Human1{
 public class LaunchGenerics {
     public static  void main(String[] args){
         //Generics - What are generics and why do we need them
-        // Unlike Arrays collections can have heterogenous type of data and sometimes treating a collection in one way might cause an exception if we are not careful with our
+        // Unlike Arrays collections can have heterogeneous type of data and sometimes treating a collection in one way might cause an exception if we are not careful with our
         //operations and type conversions. To avoid this and help us out Generics are introduced which ensure that whatever type of Data is declared in the collection
         //only that type of data can be added.
 
